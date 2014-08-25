@@ -1,5 +1,5 @@
 PROJECT=proj.ios_mac/LabelAVGLabo.xcodeproj
-SCHEME="LabelAVGLabo iOS"
+SCHEME="LabelAVGLabo iOS Tests"
 
 test:
 	xcodebuild \
