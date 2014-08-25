@@ -28,9 +28,13 @@
 
 - (void)testExample
 {
+}
+
+- (void)testSum
+{
     int num = 1+2;
     XCTAssertEqual(3, num, @"1+2=3だよ");
-    
+    XCTAssertNotEqual(5, num, @"1+2!=5だよ");
 }
 
 
