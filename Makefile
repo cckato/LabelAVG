@@ -1,5 +1,5 @@
 PROJECT=proj.ios_mac/LabelAVGLabo.xcodeproj
-SCHEME="LabelAVGLabo iOS Tests"
+SCHEME="LabelAVGLabo iOS"
 
 test:
 	xcodebuild \
@@ -7,5 +7,5 @@ test:
 	  -scheme $(SCHEME) \
 	  -sdk iphonesimulator7.1 \
 	  -configuration Debug \
-	  -destination "platform=iOS Simulator,name=iPhone Retina(4-inch 64-bit),OS=7.0" \
-	  clean build test
+	  -destination "platform=iOS Simulator,name=iPhone Retina (4-inch 64-bit),OS=7.1" \
+	  build test
